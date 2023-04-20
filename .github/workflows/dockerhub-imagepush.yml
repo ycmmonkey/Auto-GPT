@@ -3,6 +3,7 @@ name: Push Docker Image on Release
 on:
   push:
     branches: [ "stable" ]
+  workflow_dispatch:
 
 jobs:
 
